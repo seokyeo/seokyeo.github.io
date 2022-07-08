@@ -108,7 +108,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Jeonju, Korea"
-  email            : "seokregi@gmail.com"
+  email            : #"seokregi@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -279,7 +279,7 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+   # _posts
   - scope:
       path: ""
       type: posts

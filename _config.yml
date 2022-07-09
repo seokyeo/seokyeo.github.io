@@ -105,10 +105,10 @@ analytics:
 # Site Author
 author:
   name             : "Chan"
-  avatar           : "C:\seokyeo\seokyeo.github.io\FPhSYQRVUAMqsER.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/FPhSYQRVUAMqsER.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "어서오세요"
-  location         : 
-  email            : #"seokregi@gmail.com"
+  #location         : 
+  #email            : #"seokregi@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

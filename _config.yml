@@ -107,7 +107,7 @@ author:
   name             : "Chan"
   avatar           : "C:\seokyeo\seokyeo.github.io\FPhSYQRVUAMqsER.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "어서오세요"
-  location         : "Jeonju, Korea"
+  location         : 
   email            : #"seokregi@gmail.com"
   links:
     - label: "Email"

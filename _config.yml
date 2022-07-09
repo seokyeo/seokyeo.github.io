@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Chan"
-  avatar           : "/assets/images/FPhSYQRVUAMqsER.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/FPhSYQRVUAMqsER.jpg"{: width="20%" height="20%"}  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "어서오세요"
   #location         : 
   #email            : #"seokregi@gmail.com"

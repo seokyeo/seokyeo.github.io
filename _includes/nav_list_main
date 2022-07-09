@@ -24,11 +24,11 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">PlayList</span>
+        <span class="nav__sub-title">Playlist</span>
         <ul>
             {% for category in site.categories %}
                     {% if category[0] == "playlist" %}
-                        <li><a href="/categories/playList" class="">playlist ({{category[1].size}})</a></li>
+                        <li><a href="/categories/playlist" class="">playlist ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
         </ul>

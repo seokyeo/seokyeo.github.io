@@ -1,5 +1,5 @@
 ---
-title: "PlayList"
+title: "Playlist"
 layout: archive
 permalink: categories/playlist
 author_profile: true

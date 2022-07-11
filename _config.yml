@@ -105,11 +105,10 @@ analytics:
 # Site Author
 author:
   name             : "Chan"
-  avatar           : "![FPhSYQRVUAMqsER](https://user-images.githubusercontent.com/65169722/178191037-393cee63-1e6d-4f76-b5c2-2c0e398bf057.jpg)
-"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "어서오세요"
-  #location         : 
-  #email            : #"seokregi@gmail.com"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "코딩 잘하고 싶은 그냥 어느 컴공과 학생"
+  location         : "Jeonju, South Korea"
+  email            : "seokregi@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

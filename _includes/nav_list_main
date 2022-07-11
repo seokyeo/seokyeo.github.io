@@ -35,14 +35,14 @@
         <ul>
             {% for category in site.categories %}
                     {% if category[0] == "잡담" %}
-                        <li><a href="/categories/잡담" class="">playlist ({{category[1].size}})</a></li>
+                        <li><a href="/categories/잡담" class="">잡담 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
         </ul>
         <ul>
             {% for category in site.categories %}
                     {% if category[0] == "메모" %}
-                        <li><a href="/categories/메모" class="">playlist ({{category[1].size}})</a></li>
+                        <li><a href="/categories/메모" class="">memo ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
         </ul>

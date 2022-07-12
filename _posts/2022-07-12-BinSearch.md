@@ -9,6 +9,7 @@ tags:
 ```cpp
 //arr의 sort 필요
 
+//기본
 int BinSearch(int arr[], int target)
 {
 	int low = 0;
@@ -25,7 +26,7 @@ int BinSearch(int arr[], int target)
 	}
 	return -1;
 }
-
+//재귀
 int RecursiveBinSearch(int arr[], int target, int low, int high)
 {
 	if(low > high) return -1;
@@ -36,6 +37,7 @@ int RecursiveBinSearch(int arr[], int target, int low, int high)
 	else //(arr[mid] < tartget)
 		 return RecursiveBinSearch(arr, target, mid+1, high);
 }
+
  
 
 ```

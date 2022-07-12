@@ -24,7 +24,25 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">일상+잡담</span>
+        <span class="nav__sub-title">JAVA</span>
+        <ul>
+            {% for category in site.categories %}
+                    {% if category[0] == "java" %}
+                        <li><a href="/categories/java" class="">java ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+        </ul>
+
+        <span class="nav__sub-title">PYTHON</span>
+        <ul>
+            {% for category in site.categories %}
+                    {% if category[0] == "python" %}
+                        <li><a href="/categories/python" class="">python ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+        </ul>
+
+        <span class="nav__sub-title">etc...</span>
         <ul>
             {% for category in site.categories %}
                     {% if category[0] == "playlist" %}
